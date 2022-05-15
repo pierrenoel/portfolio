@@ -1,0 +1,22 @@
+@media (max-width:800px) {
+    .btn-top{
+        width: 10%;
+    }
+    .project{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+        margin: 0 auto;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 15px;
+    }
+}
+
+.btn-top{
+    display: block;
+    margin: auto;
+    width: 5%;
+    padding-top: 50px;
+}
