@@ -4,7 +4,7 @@
     <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="Logo VScode">
     <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Logo HTML">
     <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="Logo SASS">
-    <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Logo Bootstrap">
+    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Logo Tailwind">
     <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="Logo JS">
     <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="Logo PHP">
     <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" alt="Logo MySQL">
@@ -15,9 +15,13 @@
 
 <i><strong>Work in progress...</strong></i>
 
-<h2>Mock-up</h2>
+<h2>Objectives</h2>
 
-[Figma](https://www.figma.com/file/iNkZ5igHqxUZrhE21S6HwN/Mockup-portfolio?node-id=0%3A1)
+- [x] Mock up
+- [x] Choose a framework
+- [x] Doing HTML/CSS
+- [ ] Fill the cards + btn mysql
+- [ ] PHP
 
 <h2>Author</h2>
 

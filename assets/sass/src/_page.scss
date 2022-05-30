@@ -2,23 +2,27 @@
     .btn-top{
         width: 10%;
     }
-    .project{
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        justify-content: center;
-        margin: 0 auto;
-        padding-left: 15%;
-        padding-right: 15%;
-        padding-top: 15px;
+    main {
+        padding: 5%;
     }
 }
 
-.btn-top{
+main{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.btn-top {
     display: block;
     margin: auto;
     width: 5%;
-    padding-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.sep{
+    display: block;
+    margin: auto;
 }
 
 body {

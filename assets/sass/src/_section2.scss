@@ -1,10 +1,38 @@
-.project{
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    padding-top: 100px;
+.projet {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 30px;
+    text-decoration: underline;
 }
 
-.card {
-    width: 18rem;
+.html-btn{
+    padding: 10px;
+    background-color: rgb(247, 77, 10);
+    font-size: 15px;
+    border-radius: 25px;
+    color: white;
+}
+
+.sass-btn{
+    padding: 10px;
+    background-color: rgb(247, 10, 188);
+    font-size: 15px;
+    border-radius: 25px;
+    color: white;
+}
+
+.js-btn{
+    padding: 10px;
+    background-color: rgb(223, 247, 10);
+    font-size: 15px;
+    border-radius: 25px;
+    color: white;
+}
+
+.php-btn{
+    padding: 10px;
+    background-color: rgb(101, 10, 247);
+    font-size: 15px;
+    border-radius: 25px;
+    color: white;
 }
