@@ -13,7 +13,7 @@
     <!--Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Bellota&display=swap" rel="stylesheet"> 
 
     <!--Style + favicon-->
     <title>Loïc Calcagno | Portfolio</title>
@@ -82,15 +82,19 @@
 
     <main>
         <!--A propos de moi-->
-        <section id="Apropos" class="flex flex-col sm:justify-between items-center sm:flex-row mt-12 sm:mt-10 mb-5 sm:mb-8 container mx-auto">
-            <div class="w-full md:w-2/4 text-left">
-                <h1 class="font-general-semibold text-3xl md:text-3xl xl:text-4xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase pl-5">Hey, bienvenue sur mon portfolio 👋</h1>
-                <p class="font-general-medium mt-2 text-lg sm:text-xl xl:text-2xl text-center sm:text-left leading-none text-gray-400 pl-5">Je m'appelle Loïc Calcagno et je suis full stack développeur junior</p>
-            </div>
-            <div class="w-full md:w-2/4 text-right float-right sm:p-5">
-                <img class="img" src="assets/img/img.jpg" alt="photo">
-            </div>
-        </section>
+        <div class="background p-10">
+            <section id="Apropos" class="flex flex-col sm:justify-between items-center sm:flex-row mt-12 sm:mt-10 mb-5 sm:mb-8 container mx-auto">
+                <div class="w-full md:w-2/4 text-left">
+                    <h1 class="font-general-semibold text-3xl md:text-3xl xl:text-4xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase pl-5">Hey, bienvenue sur mon portfolio 👋</h1>
+                    <p class="font-general-medium mt-2 text-lg sm:text-xl xl:text-2xl text-center sm:text-left leading-none text-ternary-dark pl-5">Je m'appelle Loïc Calcagno et je suis full stack développeur junior</p>
+                </div>
+                <div class="w-full md:w-2/4 text-right float-right sm:p-5">
+                    <img class="img" src="assets/img/img.jpg" alt="photo">
+                </div>
+            </section>
+        </div>
+        
+        
         
         <!--Mes projets-->
         <section id="MesProjets" class="container mx-auto">
@@ -104,9 +108,9 @@
                 <div class="w-full md:w-2/4 text-left">
                     <h2 class="font-general-semibold text-2xl md:text-xl xl:text-xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase pl-5">Challenge frontend mentor</h2>
                     <p class="font-general-medium mt-2 text-lg sm:text-xl xl:text-2xl text-center sm:text-left leading-none text-gray-400 pl-5 pb-5">Réalisation d'un challenge avec la création d'une landing page</p>
-                    <div class="mb-5 ml-5">
-                        <button class="html-btn">HTML</button>
-                        <button class="sass-btn">SASS</button>
+                    <div class="mb-5 ml-5 flex gap-5">
+                        <img src="assets/img/html5.png" alt="Logo HTML5" class="logo">
+                        <img src="assets/img/sass.png" alt="Logo SASS" class="logo">
                     </div>
                     <a href="https://github.com/CalcagnoLoic/ChallengeFM_landing_page" target="_blank"><button class=" bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full ml-5"> Github &#x2794; </button></a>
                 </div>
@@ -116,17 +120,17 @@
             <!--Projet 2-->
             <div class="flex flex-col sm:justify-between items-center sm:flex-row mt-12 sm:mt-10 mb-5 sm:mb-8 container mx-auto">
                 <div class="w-full md:w-2/4 text-left">
-                    <h2 class="font-general-semibold text-2xl md:text-xl xl:text-xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase pl-5">xPense</h2>
-                    <p class="font-general-medium mt-2 text-lg sm:text-xl xl:text-2xl text-center sm:text-left leading-none text-gray-400 pl-5 pb-5">TODO</p>
-                    <div class="mb-5 ml-5">
-                        <button class="html-btn">HTML</button>
-                        <button class="sass-btn">SASS</button>
-                        <button class="js-btn">Javascript</button>
+                    <h2 class="font-general-semibold text-2xl md:text-xl xl:text-xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase pl-5">Jeu du pendu</h2>
+                    <p class="font-general-medium mt-2 text-lg sm:text-xl xl:text-2xl text-center sm:text-left leading-none text-gray-400 pl-5 pb-5">Réalisation d'un mini jeu du pendu en vanilla Javascript</p>
+                    <div class="mb-5 ml-5 flex gap-5">
+                        <img src="assets/img/html5.png" alt="Logo HTML5" class="logo">
+                        <img src="assets/img/sass.png" alt="Logo SASS" class="logo">
+                        <img src="assets/img/javascript.png" alt="Logo Javascript" class="logo">
                     </div>
-                    <a href="https://github.com/CalcagnoLoic/Xpense_Landing_Page" target="_blank"><button class=" bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full ml-5"> Github &#x2794; </button></a>
+                    <a href="https://github.com/CalcagnoLoic/Hangman-app" target="_blank"><button class=" bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full ml-5"> Github &#x2794; </button></a>
                 </div>
                 <div class="w-full md:w-2/4 text-right float-right sm:p-5">
-                    <a href="https://github.com/CalcagnoLoic/Xpense_Landing_Page" target="_blank"><img class="img" src="assets/img/img.jpg" alt="Projet 2"></a>
+                    <a href="https://calcagnoloic.github.io/Hangman-app/" target="_blank"><img class="img" src="assets/img/project1.png" alt="Projet 2"></a>
                 </div>
             </div>
             <img class="sep" src="assets/img/sep.png" alt="separation">
@@ -134,15 +138,15 @@
             <!--Projet 3-->
             <div class="flex flex-col sm:justify-between items-center sm:flex-row mt-12 sm:mt-10 mb-5 sm:mb-8 container mx-auto">
                 <div class="w-full md:w-2/4 text-right float-right sm:p-5">
-                    <a href="https://calcagnoloic.github.io/Hangman-app/" target="_blank"><img class="img" src="assets/img/project3.png" alt="Projet 3"></a>
+                    <a href="https://calcagnoloic.github.io/Hangman-app/" target="_blank"><img class="img" src="assets/img/img.jpg" alt="Projet 3"></a>
                 </div>
                 <div class="w-full md:w-2/4 text-left">
-                    <h2 class="font-general-semibold text-2xl md:text-xl xl:text-xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase pl-5">Jeu du pendu</h2>
-                    <p class="font-general-medium mt-2 text-lg sm:text-xl xl:text-2xl text-center sm:text-left leading-none text-gray-400 pl-5 pb-5">Réalisation d'un challenge avec la création d'une landing page</p>
-                    <div class="mb-5 ml-5">
-                        <button class="html-btn">HTML</button>
-                        <button class="sass-btn">SASS</button>
-                        <button class="js-btn">Javascript</button>
+                    <h2 class="font-general-semibold text-2xl md:text-xl xl:text-xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase pl-5">Woodstock</h2>
+                    <p class="font-general-medium mt-2 text-lg sm:text-xl xl:text-2xl text-center sm:text-left leading-none text-gray-400 pl-5 pb-5">Réalisation d'une landing page en react</p>
+                    <div class="mb-5 ml-5 flex gap-5">
+                        <img src="assets/img/html5.png" alt="Logo HTML5" class="logo">
+                        <img src="assets/img/sass.png" alt="Logo SASS" class="logo">
+                        <img src="assets/img/react.png" alt="Logo React" class="logo">
                     </div>
                     <a href="https://github.com/CalcagnoLoic/Hangman-app" target="_blank"><button class=" bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full ml-5"> Github &#x2794; </button></a>
                 </div>
@@ -152,12 +156,13 @@
             <!--Projet 4-->
             <div class="flex flex-col sm:justify-between items-center sm:flex-row mt-12 sm:mt-10 mb-5 sm:mb-8 container mx-auto">
                 <div class="w-full md:w-2/4 text-left">
-                    <h2 class="font-general-semibold text-2xl md:text-xl xl:text-xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase pl-5">Projet 4</h2>
-                    <p class="font-general-medium mt-2 text-lg sm:text-xl xl:text-2xl text-center sm:text-left leading-none text-gray-400 pl-5 pb-5">TODO</p>
-                    <div class="mb-5 ml-5">
-                        <button class="html-btn">HTML</button>
-                        <button class="sass-btn">SASS</button>
-                        <button class="js-btn">Javascript</button>
+                    <h2 class="font-general-semibold text-2xl md:text-xl xl:text-xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase pl-5">Hackers poulette</h2>
+                    <p class="font-general-medium mt-2 text-lg sm:text-xl xl:text-2xl text-center sm:text-left leading-none text-gray-400 pl-5 pb-5">Réalisation d'un formulaire ajoutant les données de l'utilisateur dans une base de données</p>
+                    <div class="mb-5 ml-5 flex gap-5">
+                        <img src="assets/img/html5.png" alt="Logo HTML5" class="logo">
+                        <img src="assets/img/sass.png" alt="Logo SASS" class="logo">
+                        <img src="assets/img/php.png" alt="Logo PHP" class="logo-back">
+                        <img src="assets/img/mysql.png" alt="Logo MySQL" class="logo-back">
                     </div>
                     <a href="https://github.com/CalcagnoLoic/project_front_02" target="_blank"><button class=" bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full ml-5"> Github &#x2794; </button></a>
                 </div>
@@ -173,12 +178,13 @@
                     <a href="https://calcagnoloic.github.io/ChallengeFM_landing_page/" target="_blank"><img class="img" src="assets/img/img.jpg" alt="Projet 5"></a>
                 </div>
                 <div class="w-full md:w-2/4 text-left">
-                    <h2 class="font-general-semibold text-2xl md:text-xl xl:text-xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase pl-5">Hicking app</h2>
-                    <p class="font-general-medium mt-2 text-lg sm:text-xl xl:text-2xl text-center sm:text-left leading-none text-gray-400 pl-5 pb-5">TODO</p>
-                    <div class="mb-5 ml-5">
-                        <button class="html-btn">HTML</button>
-                        <button class="sass-btn">SASS</button>
-                        <button class="php-btn">PHP</button>
+                    <h2 class="font-general-semibold text-2xl md:text-xl xl:text-xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase pl-5">Hicking-app</h2>
+                    <p class="font-general-medium mt-2 text-lg sm:text-xl xl:text-2xl text-center sm:text-left leading-none text-gray-400 pl-5 pb-5">Petit site de voyage proposant des randonnées sur l'île de la Réunion</p>
+                    <div class="mb-5 ml-5 flex gap-5">
+                        <img src="assets/img/html5.png" alt="Logo HTML5" class="logo">
+                        <img src="assets/img/sass.png" alt="Logo SASS" class="logo">
+                        <img src="assets/img/php.png" alt="Logo PHP" class="logo-back">
+                        <img src="assets/img/mysql.png" alt="Logo MySQL" class="logo-back">
                     </div>
                     <a href="https://github.com/CalcagnoLoic/Hicking-app" target="_blank"><button class=" bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full ml-5"> Github &#x2794; </button></a>
                 </div>
@@ -191,9 +197,7 @@
                     <h2 class="font-general-semibold text-2xl md:text-xl xl:text-xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase pl-5">Projet 6</h2>
                     <p class="font-general-medium mt-2 text-lg sm:text-xl xl:text-2xl text-center sm:text-left leading-none text-gray-400 pl-5 pb-5">TODO</p>
                     <div class="mb-5 ml-5">
-                        <button class="html-btn">HTML</button>
-                        <button class="sass-btn">SASS</button>
-                        <button class="php-btn">PHP</button>
+                        <img src="assets/img/python.png" alt="Logo Python" class="logo">
                     </div>
                     <a href="https://github.com/CalcagnoLoic/project_back_02" target="_blank"><button class=" bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full ml-5"> Github &#x2794; </button></a>
                 </div>
@@ -209,7 +213,7 @@
         <!--Contact-->
         <section id="Contact" class="container mx-auto">
             <h2 class="contact">Contact</h2>
-            <form class="relative w-full mt-6 space-y-8">
+            <form class="relative w-full mt-6 space-y-8 form-container" method="post">
                 <div class="relative">
                     <label class="absolute px-2 ml-2 -mt-3 font-medium text-gray-600 bg-white">Prénom</label>
                     <input type="text" class="block w-full px-4 py-4 mt-2 text-base placeholder-gray-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black" placeholder="Votre prénom...">
@@ -238,21 +242,29 @@
                     <img src="assets/img/up-arrow.png" alt="Arrow up" class="btn-top">
                 </a>
         </section>
+        
     </main>
 
-    <footer class="p-4 bg-white shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
-        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">Portfolio réalisé par <a href="https://github.com/CalcagnoLoic/portfolio">Loïc Calcagno</a>
-        </span>
-        <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
-            <li>
-                <a href="https://www.linkedin.com/in/loic-calcagno/" class="mr-4 hover:underline md:mr-6 ">Linkedin</a>
-            </li>
-            <li>
-                <a href="https://github.com/CalcagnoLoic" class="mr-4 hover:underline md:mr-6">Github</a>
-            </li>
-        </ul>
+    
+    <footer class="p-4 bg-white sm:p-6 dark:bg-gray-800">
+        <div class="sm:flex sm:items-center sm:justify-between">
+            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">Portfolio réalisé par <a href="https://github.com/CalcagnoLoic">@CalcagnoLoïc</a>
+            </span>
+        <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+            <a href="https://github.com/CalcagnoLoic" target="_blank">
+                <img src="assets/img/github.png" alt="Logo github" class="logo-footer">
+            </a>
+            <a href="https://www.linkedin.com/in/loic-calcagno/" target="_blank">
+                <img src="assets/img/linkedin.png" alt="Logo Linkedin" class="logo-footer">
+            </a>
+            <a href="https://calcagnoloic.github.io/CV/" target="_blank">
+                <img src="assets/img/cv.png" alt="Logo CV en ligne" class="logo-footer">
+            </a>
+        </div>
+        </div>
     </footer>
 
+    <!--Script tailwind-->
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/flowbite@1.4.3/dist/flowbite.js"></script>
 </body>

@@ -20,7 +20,7 @@
 - [x] Mock up
 - [x] Choose a framework
 - [x] Doing HTML/CSS
-- [ ] Fill the cards + btn mysql
+- [x] Fill the cards + btn mysql
 - [ ] PHP
 
 <h2>Author</h2>
