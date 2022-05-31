@@ -22,6 +22,9 @@
 - [x] Doing HTML/CSS
 - [x] Fill the cards + btn mysql
 - [ ] PHP
+- [ ] background main
+- [ ] subject 
+- [ ] charte graphique
 
 <h2>Author</h2>
 
