@@ -227,7 +227,7 @@
                     <select id="countries" class="block w-full px-4 py-4 mt-2 text-base placeholder-gray-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black">
                         <option>Choissisez une option...</option>
                         <option>Question concernant un projet</option>
-                        <option>Je sais pas encore</option>
+                        <option>Autre</option>
                     </select>
                 </div>
                 <div class="relative">

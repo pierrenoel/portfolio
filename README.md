@@ -24,9 +24,8 @@
 - [x] Mock up
 - [x] Choose a framework
 - [x] Doing HTML/CSS
-- [x] Fill the cards + btn mysql
+- [x] Fill the cards
 - [ ] PHP
-- [ ] subject 
 
 <h2>Author</h2>
 
