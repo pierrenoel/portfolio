@@ -129,4 +129,9 @@ p {
     text-align: center;
   }
 }
+
+.logo-cv {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
 /*# sourceMappingURL=style.css.map */

@@ -258,7 +258,7 @@
                 <img src="assets/img/linkedin.png" alt="Logo Linkedin" class="logo-footer">
             </a>
             <a href="https://calcagnoloic.github.io/CV/" target="_blank">
-                <img src="assets/img/cv.png" alt="Logo CV en ligne" class="logo-footer">
+                <img src="assets/img/cv.png" alt="Logo CV en ligne" class="logo-footer logo-cv">
             </a>
         </div>
         </div>
