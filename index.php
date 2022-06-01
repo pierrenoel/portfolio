@@ -36,7 +36,7 @@
                     <div class="hidden z-50 my-4 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600" id="dropdown" style="position: absolute; inset: auto auto 0px 0px; margin: 0px; transform: translate(1095px, 974px);" data-popper-reference-hidden="" data-popper-escaped="" data-popper-placement="top">
                         <div class="py-3 px-4">
                             <span class="block text-sm text-gray-900 dark:text-white">Calcagno Loïc</span>
-                            <a href="mailto:calcagnoloic93@gmail.com"><span class="block text-sm font-medium text-gray-500 truncate dark:text-gray-400">calcagnoloic93@gmail.com</span></a>
+                            <a href="mailto:calcagnoloic93@gmail.com"><span class="block text-sm font-medium text-gray-500 truncate dark:text-gray-400">calcagnoloic93@gmail.com <img src="assets/img/gmail.png" alt="Logo gmail" class="logo-nav"></span></a>
                         </div>
                         <ul class="py-1" aria-labelledby="dropdown">
                             <li>
@@ -82,14 +82,14 @@
 
     <main>
         <!--A propos de moi-->
-        <div class="background p-10">
+        <div class="p-10">
             <section id="Apropos" class="flex flex-col sm:justify-between items-center sm:flex-row mt-12 sm:mt-10 mb-5 sm:mb-8 container mx-auto">
                 <div class="w-full md:w-2/4 text-left">
-                    <h1 class="font-general-semibold text-3xl md:text-3xl xl:text-4xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase pl-5">Hey, bienvenue sur mon portfolio 👋</h1>
-                    <p class="font-general-medium mt-2 text-lg sm:text-xl xl:text-2xl text-center sm:text-left leading-none text-ternary-dark pl-5">Je m'appelle Loïc Calcagno et je suis full stack développeur junior</p>
+                    <h1 class="font-general-semibold text-3xl md:text-3xl xl:text-4xl text-center sm:text-left text-white font-bold uppercase pl-5">Hey, bienvenue sur mon portfolio 👋</h1>
+                    <p class="font-general-medium mt-2 text-lg sm:text-xl xl:text-2xl text-center sm:text-left leading-none text-white font-bold pl-5">Je m'appelle Loïc Calcagno et je suis full stack développeur junior</p>
                 </div>
                 <div class="w-full md:w-2/4 text-right float-right sm:p-5">
-                    <img class="img" src="assets/img/img.jpg" alt="photo">
+                    <img class="img-header" src="assets/img/photo_header.png" alt="photo">
                 </div>
             </section>
         </div>
@@ -98,15 +98,15 @@
         
         <!--Mes projets-->
         <section id="MesProjets" class="container mx-auto">
-            <h2 class="projet">Mes projets</h2>
+            <h2 class="projet text-white font-bold">Mes projets</h2>
 
             <!--Projet 1-->
             <div class="flex flex-col sm:justify-between items-center sm:flex-row mt-12 sm:mt-10 mb-5 sm:mb-8 container mx-auto">
                 <div class="w-full md:w-2/4 text-right float-right sm:p-5">
-                    <a href="https://calcagnoloic.github.io/ChallengeFM_landing_page/" target="_blank"><img class="img" src="assets/img/project0.png" alt="Projet 1"></a>
+                    <a href="https://calcagnoloic.github.io/ChallengeFM_landing_page/" target="_blank"><img class="img img-project" src="assets/img/project0.png" alt="Projet 1"></a>
                 </div>
                 <div class="w-full md:w-2/4 text-left">
-                    <h2 class="font-general-semibold text-2xl md:text-xl xl:text-xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase pl-5">Challenge frontend mentor</h2>
+                    <h2 class="font-general-semibold text-2xl md:text-xl xl:text-xl text-center sm:text-left dark:text-primary-light uppercase pl-5 text-white font-semibold">Challenge frontend mentor</h2>
                     <p class="font-general-medium mt-2 text-lg sm:text-xl xl:text-2xl text-center sm:text-left leading-none text-gray-400 pl-5 pb-5">Réalisation d'un challenge avec la création d'une landing page</p>
                     <div class="mb-5 ml-5 flex gap-5">
                         <img src="assets/img/html5.png" alt="Logo HTML5" class="logo">
@@ -120,7 +120,7 @@
             <!--Projet 2-->
             <div class="flex flex-col sm:justify-between items-center sm:flex-row mt-12 sm:mt-10 mb-5 sm:mb-8 container mx-auto">
                 <div class="w-full md:w-2/4 text-left">
-                    <h2 class="font-general-semibold text-2xl md:text-xl xl:text-xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase pl-5">Jeu du pendu</h2>
+                    <h2 class="font-general-semibold text-2xl md:text-xl xl:text-xl text-center sm:text-left text-white font-semibold dark:text-primary-light uppercase pl-5">Jeu du pendu</h2>
                     <p class="font-general-medium mt-2 text-lg sm:text-xl xl:text-2xl text-center sm:text-left leading-none text-gray-400 pl-5 pb-5">Réalisation d'un mini jeu du pendu en vanilla Javascript</p>
                     <div class="mb-5 ml-5 flex gap-5">
                         <img src="assets/img/html5.png" alt="Logo HTML5" class="logo">
@@ -130,7 +130,7 @@
                     <a href="https://github.com/CalcagnoLoic/Hangman-app" target="_blank"><button class=" bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full ml-5"> Github &#x2794; </button></a>
                 </div>
                 <div class="w-full md:w-2/4 text-right float-right sm:p-5">
-                    <a href="https://calcagnoloic.github.io/Hangman-app/" target="_blank"><img class="img" src="assets/img/project1.png" alt="Projet 2"></a>
+                    <a href="https://calcagnoloic.github.io/Hangman-app/" target="_blank"><img class="img img-project" src="assets/img/project1.png" alt="Projet 2"></a>
                 </div>
             </div>
             <img class="sep" src="assets/img/sep.png" alt="separation">
@@ -138,10 +138,10 @@
             <!--Projet 3-->
             <div class="flex flex-col sm:justify-between items-center sm:flex-row mt-12 sm:mt-10 mb-5 sm:mb-8 container mx-auto">
                 <div class="w-full md:w-2/4 text-right float-right sm:p-5">
-                    <a href="https://calcagnoloic.github.io/Hangman-app/" target="_blank"><img class="img" src="assets/img/img.jpg" alt="Projet 3"></a>
+                    <a href="https://calcagnoloic.github.io/Hangman-app/" target="_blank"><img class="img img-project" src="assets/img/img.jpg" alt="Projet 3"></a>
                 </div>
                 <div class="w-full md:w-2/4 text-left">
-                    <h2 class="font-general-semibold text-2xl md:text-xl xl:text-xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase pl-5">Woodstock</h2>
+                    <h2 class="font-general-semibold text-2xl md:text-xl xl:text-xl text-center sm:text-left text-white font-semibold dark:text-primary-light uppercase pl-5">Woodstock</h2>
                     <p class="font-general-medium mt-2 text-lg sm:text-xl xl:text-2xl text-center sm:text-left leading-none text-gray-400 pl-5 pb-5">Réalisation d'une landing page en react</p>
                     <div class="mb-5 ml-5 flex gap-5">
                         <img src="assets/img/html5.png" alt="Logo HTML5" class="logo">
@@ -156,7 +156,7 @@
             <!--Projet 4-->
             <div class="flex flex-col sm:justify-between items-center sm:flex-row mt-12 sm:mt-10 mb-5 sm:mb-8 container mx-auto">
                 <div class="w-full md:w-2/4 text-left">
-                    <h2 class="font-general-semibold text-2xl md:text-xl xl:text-xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase pl-5">Hackers poulette</h2>
+                    <h2 class="font-general-semibold text-2xl md:text-xl xl:text-xl text-center sm:text-left text-white font-semibold dark:text-primary-light uppercase pl-5">Hackers poulette</h2>
                     <p class="font-general-medium mt-2 text-lg sm:text-xl xl:text-2xl text-center sm:text-left leading-none text-gray-400 pl-5 pb-5">Réalisation d'un formulaire ajoutant les données de l'utilisateur dans une base de données</p>
                     <div class="mb-5 ml-5 flex gap-5">
                         <img src="assets/img/html5.png" alt="Logo HTML5" class="logo">
@@ -167,7 +167,7 @@
                     <a href="https://github.com/CalcagnoLoic/project_front_02" target="_blank"><button class=" bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full ml-5"> Github &#x2794; </button></a>
                 </div>
                 <div class="w-full md:w-2/4 text-right float-right sm:p-5">
-                    <a href="https://calcagnoloic.github.io/ChallengeFM_landing_page/" target="_blank"><img class="img" src="assets/img/img.jpg" alt="Projet 4"></a>
+                    <a href="https://calcagnoloic.github.io/ChallengeFM_landing_page/" target="_blank"><img class="img img-project" src="assets/img/img.jpg" alt="Projet 4"></a>
                 </div>
             </div>
             <img class="sep" src="assets/img/sep.png" alt="separation">
@@ -175,10 +175,10 @@
             <!--Projet 5-->
             <div class="flex flex-col sm:justify-between items-center sm:flex-row mt-12 sm:mt-10 mb-5 sm:mb-8 container mx-auto">
                 <div class="w-full md:w-2/4 text-right float-right sm:p-5">
-                    <a href="https://calcagnoloic.github.io/ChallengeFM_landing_page/" target="_blank"><img class="img" src="assets/img/img.jpg" alt="Projet 5"></a>
+                    <a href="https://calcagnoloic.github.io/ChallengeFM_landing_page/" target="_blank"><img class="img img-project" src="assets/img/img.jpg" alt="Projet 5"></a>
                 </div>
                 <div class="w-full md:w-2/4 text-left">
-                    <h2 class="font-general-semibold text-2xl md:text-xl xl:text-xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase pl-5">Hicking-app</h2>
+                    <h2 class="font-general-semibold text-2xl md:text-xl xl:text-xl text-center sm:text-left text-white font-semibold dark:text-primary-light uppercase pl-5">Hicking-app</h2>
                     <p class="font-general-medium mt-2 text-lg sm:text-xl xl:text-2xl text-center sm:text-left leading-none text-gray-400 pl-5 pb-5">Petit site de voyage proposant des randonnées sur l'île de la Réunion</p>
                     <div class="mb-5 ml-5 flex gap-5">
                         <img src="assets/img/html5.png" alt="Logo HTML5" class="logo">
@@ -194,7 +194,7 @@
             <!--Projet 6-->
             <div class="flex flex-col sm:justify-between items-center sm:flex-row mt-12 sm:mt-10 mb-5 sm:mb-8 container mx-auto">
                 <div class="w-full md:w-2/4 text-left">
-                    <h2 class="font-general-semibold text-2xl md:text-xl xl:text-xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase pl-5">Projet 6</h2>
+                    <h2 class="font-general-semibold text-2xl md:text-xl xl:text-xl text-center sm:text-left text-white font-semibold dark:text-primary-light uppercase pl-5">Projet 6</h2>
                     <p class="font-general-medium mt-2 text-lg sm:text-xl xl:text-2xl text-center sm:text-left leading-none text-gray-400 pl-5 pb-5">TODO</p>
                     <div class="mb-5 ml-5">
                         <img src="assets/img/python.png" alt="Logo Python" class="logo">
@@ -202,7 +202,7 @@
                     <a href="https://github.com/CalcagnoLoic/project_back_02" target="_blank"><button class=" bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full ml-5"> Github &#x2794; </button></a>
                 </div>
                 <div class="w-full md:w-2/4 text-right float-right sm:p-5">
-                    <a href="https://calcagnoloic.github.io/ChallengeFM_landing_page/" target="_blank"><img class="img" src="assets/img/img.jpg" alt="Projet 6"></a>
+                    <a href="https://calcagnoloic.github.io/ChallengeFM_landing_page/" target="_blank"><img class="img img-project" src="assets/img/img.jpg" alt="Projet 6"></a>
                 </div>
             </div>
             <a href="#Top">
@@ -212,7 +212,7 @@
 
         <!--Contact-->
         <section id="Contact" class="container mx-auto">
-            <h2 class="contact">Contact</h2>
+            <h2 class="contact text-white font-bold">Contact</h2>
             <form class="relative w-full mt-6 space-y-8 form-container" method="post">
                 <div class="relative">
                     <label class="absolute px-2 ml-2 -mt-3 font-medium text-gray-600 bg-white">Prénom</label>
@@ -248,7 +248,7 @@
     
     <footer class="p-4 bg-white sm:p-6 dark:bg-gray-800">
         <div class="sm:flex sm:items-center sm:justify-between">
-            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">Portfolio réalisé par <a href="https://github.com/CalcagnoLoic">@CalcagnoLoïc</a>
+            <span class="text-sm text-white sm:text-center ">Portfolio réalisé par <a href="https://github.com/CalcagnoLoic">@CalcagnoLoïc</a>
             </span>
         <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             <a href="https://github.com/CalcagnoLoic" target="_blank">

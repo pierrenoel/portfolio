@@ -35,3 +35,16 @@ main{
 body {
     font-family: 'Bellota', cursive;
 }
+
+.img-project {
+    border: 5px solid rgb(214, 212, 212);
+    box-shadow: 5px 5px 5px black;
+    &:hover {
+        transform: scale(1.1);
+        transition: 1s ease-in-out;
+    }
+}
+
+body {
+    background-color: #1f2937ec;
+}
