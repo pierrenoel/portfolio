@@ -10,7 +10,7 @@
     <!--Tailwind-->
     <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.3/dist/flowbite.min.css"/>
 
-    <!--Font-->
+    <!--Font Bellota-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bellota&display=swap" rel="stylesheet"> 
