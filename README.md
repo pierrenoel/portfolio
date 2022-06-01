@@ -15,6 +15,10 @@
 
 <i><strong>Work in progress...</strong></i>
 
+<h2>Graphic chart</h2>
+
+![](assets/img/graphic_chart.png)
+
 <h2>Objectives</h2>
 
 - [x] Mock up
